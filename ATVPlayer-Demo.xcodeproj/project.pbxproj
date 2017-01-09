@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C87A7DDD3574CEE17520636 /* libPods-ATVPlayer-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F9060EFEB66CA40B517343 /* libPods-ATVPlayer-Demo.a */; };
+		BF08ABD51E1F723F00E7B08D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF08ABD41E1F723F00E7B08D /* main.m */; };
+		BF08ABD81E1F723F00E7B08D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF08ABD71E1F723F00E7B08D /* AppDelegate.m */; };
+		BF08ABDB1E1F723F00E7B08D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF08ABDA1E1F723F00E7B08D /* ViewController.m */; };
+		BF08ABDE1E1F723F00E7B08D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF08ABDC1E1F723F00E7B08D /* Main.storyboard */; };
+		BF08ABE01E1F724000E7B08D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF08ABDF1E1F724000E7B08D /* Assets.xcassets */; };
+		BF08ABE91E1F7C8600E7B08D /* ObjcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF08ABE81E1F7C8600E7B08D /* ObjcViewController.m */; };
+		BF08ABEE1E1F7CAE00E7B08D /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF08ABED1E1F7CAE00E7B08D /* SwiftViewController.swift */; };
+		BF08ABF01E1F8FFC00E7B08D /* Overlay.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF08ABEF1E1F8FFC00E7B08D /* Overlay.xib */; };
+		BF08ABF21E1F93D500E7B08D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BF08ABF11E1F93D500E7B08D /* logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F3F7548E4E3E62FED5C2920 /* Pods-ATVPlayer-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATVPlayer-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ATVPlayer-Demo/Pods-ATVPlayer-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		A2F9060EFEB66CA40B517343 /* libPods-ATVPlayer-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ATVPlayer-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF08ABD01E1F723F00E7B08D /* ATVPlayer-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ATVPlayer-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF08ABD41E1F723F00E7B08D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF08ABD61E1F723F00E7B08D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF08ABD71E1F723F00E7B08D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF08ABD91E1F723F00E7B08D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF08ABDA1E1F723F00E7B08D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF08ABDD1E1F723F00E7B08D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF08ABDF1E1F724000E7B08D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF08ABE11E1F724000E7B08D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF08ABE71E1F7C8600E7B08D /* ObjcViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjcViewController.h; sourceTree = "<group>"; };
+		BF08ABE81E1F7C8600E7B08D /* ObjcViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjcViewController.m; sourceTree = "<group>"; };
+		BF08ABEC1E1F7CAE00E7B08D /* ATVPlayer-Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ATVPlayer-Demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		BF08ABED1E1F7CAE00E7B08D /* SwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
+		BF08ABEF1E1F8FFC00E7B08D /* Overlay.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Overlay.xib; sourceTree = "<group>"; };
+		BF08ABF11E1F93D500E7B08D /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		D26DF8592B5FB2874BA3DD7F /* Pods-ATVPlayer-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATVPlayer-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ATVPlayer-Demo/Pods-ATVPlayer-Demo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF08ABCD1E1F723F00E7B08D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C87A7DDD3574CEE17520636 /* libPods-ATVPlayer-Demo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		552F9EFDA6EA6E25DB3D4B4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2F9060EFEB66CA40B517343 /* libPods-ATVPlayer-Demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE0FF32175707F4C586F9BD6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F3F7548E4E3E62FED5C2920 /* Pods-ATVPlayer-Demo.debug.xcconfig */,
+				D26DF8592B5FB2874BA3DD7F /* Pods-ATVPlayer-Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF08ABC71E1F723F00E7B08D = {
+			isa = PBXGroup;
+			children = (
+				BF08ABD21E1F723F00E7B08D /* ATVPlayer-Demo */,
+				BF08ABD11E1F723F00E7B08D /* Products */,
+				AE0FF32175707F4C586F9BD6 /* Pods */,
+				552F9EFDA6EA6E25DB3D4B4E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF08ABD11E1F723F00E7B08D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF08ABD01E1F723F00E7B08D /* ATVPlayer-Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF08ABD21E1F723F00E7B08D /* ATVPlayer-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				BF08ABD61E1F723F00E7B08D /* AppDelegate.h */,
+				BF08ABD71E1F723F00E7B08D /* AppDelegate.m */,
+				BF08ABD91E1F723F00E7B08D /* ViewController.h */,
+				BF08ABDA1E1F723F00E7B08D /* ViewController.m */,
+				BF08ABEF1E1F8FFC00E7B08D /* Overlay.xib */,
+				BF08ABEB1E1F7C9C00E7B08D /* Swift */,
+				BF08ABEA1E1F7C8B00E7B08D /* Obj-c */,
+				BF08ABDC1E1F723F00E7B08D /* Main.storyboard */,
+				BF08ABDF1E1F724000E7B08D /* Assets.xcassets */,
+				BF08ABE11E1F724000E7B08D /* Info.plist */,
+				BF08ABD31E1F723F00E7B08D /* Supporting Files */,
+			);
+			path = "ATVPlayer-Demo";
+			sourceTree = "<group>";
+		};
+		BF08ABD31E1F723F00E7B08D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF08ABF11E1F93D500E7B08D /* logo.png */,
+				BF08ABD41E1F723F00E7B08D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF08ABEA1E1F7C8B00E7B08D /* Obj-c */ = {
+			isa = PBXGroup;
+			children = (
+				BF08ABE71E1F7C8600E7B08D /* ObjcViewController.h */,
+				BF08ABE81E1F7C8600E7B08D /* ObjcViewController.m */,
+			);
+			name = "Obj-c";
+			sourceTree = "<group>";
+		};
+		BF08ABEB1E1F7C9C00E7B08D /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				BF08ABED1E1F7CAE00E7B08D /* SwiftViewController.swift */,
+				BF08ABEC1E1F7CAE00E7B08D /* ATVPlayer-Demo-Bridging-Header.h */,
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF08ABCF1E1F723F00E7B08D /* ATVPlayer-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF08ABE41E1F724000E7B08D /* Build configuration list for PBXNativeTarget "ATVPlayer-Demo" */;
+			buildPhases = (
+				B0C4956942BBDD279CEB8803 /* [CP] Check Pods Manifest.lock */,
+				BF08ABCC1E1F723F00E7B08D /* Sources */,
+				BF08ABCD1E1F723F00E7B08D /* Frameworks */,
+				BF08ABCE1E1F723F00E7B08D /* Resources */,
+				7B85746F47E5FC2244B89FA7 /* [CP] Embed Pods Frameworks */,
+				B5831E58CC8B5E3A6BD24900 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ATVPlayer-Demo";
+			productName = "ATVPlayer-Demo";
+			productReference = BF08ABD01E1F723F00E7B08D /* ATVPlayer-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF08ABC81E1F723F00E7B08D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ATVPlayer;
+				TargetAttributes = {
+					BF08ABCF1E1F723F00E7B08D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9MQAW2T3CJ;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BF08ABCB1E1F723F00E7B08D /* Build configuration list for PBXProject "ATVPlayer-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF08ABC71E1F723F00E7B08D;
+			productRefGroup = BF08ABD11E1F723F00E7B08D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF08ABCF1E1F723F00E7B08D /* ATVPlayer-Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF08ABCE1E1F723F00E7B08D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF08ABF01E1F8FFC00E7B08D /* Overlay.xib in Resources */,
+				BF08ABF21E1F93D500E7B08D /* logo.png in Resources */,
+				BF08ABE01E1F724000E7B08D /* Assets.xcassets in Resources */,
+				BF08ABDE1E1F723F00E7B08D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7B85746F47E5FC2244B89FA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATVPlayer-Demo/Pods-ATVPlayer-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0C4956942BBDD279CEB8803 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B5831E58CC8B5E3A6BD24900 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATVPlayer-Demo/Pods-ATVPlayer-Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF08ABCC1E1F723F00E7B08D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF08ABE91E1F7C8600E7B08D /* ObjcViewController.m in Sources */,
+				BF08ABDB1E1F723F00E7B08D /* ViewController.m in Sources */,
+				BF08ABD81E1F723F00E7B08D /* AppDelegate.m in Sources */,
+				BF08ABEE1E1F7CAE00E7B08D /* SwiftViewController.swift in Sources */,
+				BF08ABD51E1F723F00E7B08D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF08ABDC1E1F723F00E7B08D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF08ABDD1E1F723F00E7B08D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF08ABE21E1F724000E7B08D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		BF08ABE31E1F724000E7B08D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF08ABE51E1F724000E7B08D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F3F7548E4E3E62FED5C2920 /* Pods-ATVPlayer-Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 9MQAW2T3CJ;
+				INFOPLIST_FILE = "ATVPlayer-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.atvplayer.ATVPlayer-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ATVPlayer-Demo/ATVPlayer-Demo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BF08ABE61E1F724000E7B08D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D26DF8592B5FB2874BA3DD7F /* Pods-ATVPlayer-Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 9MQAW2T3CJ;
+				INFOPLIST_FILE = "ATVPlayer-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.atvplayer.ATVPlayer-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ATVPlayer-Demo/ATVPlayer-Demo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF08ABCB1E1F723F00E7B08D /* Build configuration list for PBXProject "ATVPlayer-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF08ABE21E1F724000E7B08D /* Debug */,
+				BF08ABE31E1F724000E7B08D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF08ABE41E1F724000E7B08D /* Build configuration list for PBXNativeTarget "ATVPlayer-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF08ABE51E1F724000E7B08D /* Debug */,
+				BF08ABE61E1F724000E7B08D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF08ABC81E1F723F00E7B08D /* Project object */;
+}

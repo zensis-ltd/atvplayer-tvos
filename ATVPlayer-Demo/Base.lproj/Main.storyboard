@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="iYp-4V-sgL">
+    <device id="appleTV" orientation="landscape">
+        <adaptation id="light"/>
+    </device>
+    <dependencies>
+        <deployment identifier="tvOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="BJL-bH-cAI">
+            <objects>
+                <navigationController id="iYp-4V-sgL" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RhM-Wd-DdX">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="145"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Trc-Aa-FB8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qbq-DT-Xue" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2089" y="-1105"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9X1-pG-LF8">
+                                <rect key="frame" x="510" y="490" width="900" height="100"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HjF-8T-xi8">
+                                        <rect key="frame" x="600" y="0.0" width="300" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="300" id="bVl-D7-E3W"/>
+                                            <constraint firstAttribute="height" constant="100" id="tJf-pZ-uBy"/>
+                                        </constraints>
+                                        <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                        <state key="normal" title="Swift"/>
+                                        <connections>
+                                            <action selector="didClickSwiftBtn:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="uIM-rb-CUv"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ISk-Jh-0wN">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="dbf-iy-9e7"/>
+                                            <constraint firstAttribute="width" constant="300" id="nKD-X1-1Az"/>
+                                        </constraints>
+                                        <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                        <state key="normal" title="Objective-C"/>
+                                        <connections>
+                                            <action selector="didClickObjBtn:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="50S-a9-VIb"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="HjF-8T-xi8" firstAttribute="top" secondItem="9X1-pG-LF8" secondAttribute="top" id="4ep-da-I6J"/>
+                                    <constraint firstItem="ISk-Jh-0wN" firstAttribute="top" secondItem="9X1-pG-LF8" secondAttribute="top" id="58J-dY-R0S"/>
+                                    <constraint firstItem="HjF-8T-xi8" firstAttribute="leading" secondItem="ISk-Jh-0wN" secondAttribute="trailing" constant="300" id="HQG-Lx-UgU"/>
+                                    <constraint firstAttribute="bottom" secondItem="ISk-Jh-0wN" secondAttribute="bottom" id="Q7p-Fp-wWu"/>
+                                    <constraint firstAttribute="trailing" secondItem="HjF-8T-xi8" secondAttribute="trailing" id="RGo-cA-X9m"/>
+                                    <constraint firstItem="ISk-Jh-0wN" firstAttribute="leading" secondItem="9X1-pG-LF8" secondAttribute="leading" id="UTd-dL-PBj"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ATVPlayer Demo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WUb-l8-UHe">
+                                <rect key="frame" x="685" y="249" width="551" height="91"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="WUb-l8-UHe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Gz1-bx-jV7"/>
+                            <constraint firstItem="9X1-pG-LF8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Y5Z-rN-TmQ"/>
+                            <constraint firstItem="9X1-pG-LF8" firstAttribute="top" secondItem="WUb-l8-UHe" secondAttribute="bottom" constant="150" id="bhZ-v7-PKO"/>
+                            <constraint firstItem="9X1-pG-LF8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="uIc-0v-ok8"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="pWc-NF-gW3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
