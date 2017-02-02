@@ -50,8 +50,8 @@ Copyright :copyright: 2016 Zensis Ltd.
 
 [API Reference]: http://atvplayer.zensis.com/doc/index.html
 [CocoaPods]: https://cocoapods.org/
-[Contact us]:https://atvplayer.zensis.com
+[Contact us]:https://atvplayer.zensis.com/contact-us.html
 [logo]: assets/logo_light.png
 [setup]: assets/setup.png
 [license]: assets/license.png
-[Download ATVPlayer framework]: http://atvplayer.zensis.com/assets/images/logo_light.svg
+[Download ATVPlayer framework]: https://atvplayer.zensis.com/atvplayer_sdk.zip
