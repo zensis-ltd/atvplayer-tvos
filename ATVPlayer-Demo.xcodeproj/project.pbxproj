@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C87A7DDD3574CEE17520636 /* libPods-ATVPlayer-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F9060EFEB66CA40B517343 /* libPods-ATVPlayer-Demo.a */; };
 		BF08ABD51E1F723F00E7B08D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF08ABD41E1F723F00E7B08D /* main.m */; };
 		BF08ABD81E1F723F00E7B08D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF08ABD71E1F723F00E7B08D /* AppDelegate.m */; };
 		BF08ABDB1E1F723F00E7B08D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF08ABDA1E1F723F00E7B08D /* ViewController.m */; };
@@ -20,8 +19,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6F3F7548E4E3E62FED5C2920 /* Pods-ATVPlayer-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATVPlayer-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ATVPlayer-Demo/Pods-ATVPlayer-Demo.debug.xcconfig"; sourceTree = "<group>"; };
-		A2F9060EFEB66CA40B517343 /* libPods-ATVPlayer-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ATVPlayer-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF08ABD01E1F723F00E7B08D /* ATVPlayer-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ATVPlayer-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF08ABD41E1F723F00E7B08D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BF08ABD61E1F723F00E7B08D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,7 +34,6 @@
 		BF08ABED1E1F7CAE00E7B08D /* SwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
 		BF08ABEF1E1F8FFC00E7B08D /* Overlay.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Overlay.xib; sourceTree = "<group>"; };
 		BF08ABF11E1F93D500E7B08D /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		D26DF8592B5FB2874BA3DD7F /* Pods-ATVPlayer-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATVPlayer-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ATVPlayer-Demo/Pods-ATVPlayer-Demo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +41,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C87A7DDD3574CEE17520636 /* libPods-ATVPlayer-Demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,18 +50,8 @@
 		552F9EFDA6EA6E25DB3D4B4E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A2F9060EFEB66CA40B517343 /* libPods-ATVPlayer-Demo.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		AE0FF32175707F4C586F9BD6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6F3F7548E4E3E62FED5C2920 /* Pods-ATVPlayer-Demo.debug.xcconfig */,
-				D26DF8592B5FB2874BA3DD7F /* Pods-ATVPlayer-Demo.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		BF08ABC71E1F723F00E7B08D = {
@@ -74,7 +59,6 @@
 			children = (
 				BF08ABD21E1F723F00E7B08D /* ATVPlayer-Demo */,
 				BF08ABD11E1F723F00E7B08D /* Products */,
-				AE0FF32175707F4C586F9BD6 /* Pods */,
 				552F9EFDA6EA6E25DB3D4B4E /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -139,12 +123,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF08ABE41E1F724000E7B08D /* Build configuration list for PBXNativeTarget "ATVPlayer-Demo" */;
 			buildPhases = (
-				B0C4956942BBDD279CEB8803 /* [CP] Check Pods Manifest.lock */,
 				BF08ABCC1E1F723F00E7B08D /* Sources */,
 				BF08ABCD1E1F723F00E7B08D /* Frameworks */,
 				BF08ABCE1E1F723F00E7B08D /* Resources */,
-				7B85746F47E5FC2244B89FA7 /* [CP] Embed Pods Frameworks */,
-				B5831E58CC8B5E3A6BD24900 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -166,7 +147,6 @@
 				TargetAttributes = {
 					BF08ABCF1E1F723F00E7B08D = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 9MQAW2T3CJ;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
@@ -203,54 +183,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		7B85746F47E5FC2244B89FA7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATVPlayer-Demo/Pods-ATVPlayer-Demo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B0C4956942BBDD279CEB8803 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		B5831E58CC8B5E3A6BD24900 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATVPlayer-Demo/Pods-ATVPlayer-Demo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BF08ABCC1E1F723F00E7B08D /* Sources */ = {
@@ -369,12 +301,17 @@
 		};
 		BF08ABE51E1F724000E7B08D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F3F7548E4E3E62FED5C2920 /* Pods-ATVPlayer-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 9MQAW2T3CJ;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "ATVPlayer-Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.atvplayer.ATVPlayer-Demo";
@@ -387,12 +324,17 @@
 		};
 		BF08ABE61E1F724000E7B08D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D26DF8592B5FB2874BA3DD7F /* Pods-ATVPlayer-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 9MQAW2T3CJ;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "ATVPlayer-Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.atvplayer.ATVPlayer-Demo";
