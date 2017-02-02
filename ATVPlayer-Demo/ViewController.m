@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "ObjcViewController.h"
+#import "ATVPlayer_Demo-Swift.h"
 
 @interface ViewController ()
 
@@ -25,7 +26,7 @@
 }
 
 -(IBAction)didClickSwiftBtn:(id)sender{
-    
+    [self.navigationController pushViewController:[SwiftViewController new] animated:YES];
 }
 
 @end
