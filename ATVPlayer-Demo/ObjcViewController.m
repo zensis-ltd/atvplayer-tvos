@@ -27,9 +27,9 @@
     adContainer.adLoadingText = @"Ad loading..";
     adContainer.adCountdownText = @"Countdown: %d";
     
-    NSString *prerollUrlStr = @"http://atvplayer.zensis.com/demo/vast/vast.xml";
-    NSString *midrollUrlStr = @"http://atvplayer.zensis.com/demo/vast/vast.xml";
-    NSString *postrollUrlStr = @"http://atvplayer.zensis.com/demo/vast/vast.xml";
+    NSString *prerollUrlStr = @"https://atvplayer.zensis.com/demo/vast/vast.xml";
+    NSString *midrollUrlStr = @"https://atvplayer.zensis.com/demo/vast/vast.xml";
+    NSString *postrollUrlStr = @"https://atvplayer.zensis.com/demo/vast/vast.xml";
     
     [adContainer addAdBreak:[[ATVAd alloc] initPreRollWithVastUrl:[NSURL URLWithString:prerollUrlStr]]];
     [adContainer addAdBreak:[[ATVAd alloc] initMidRollWithVastUrl:[NSURL URLWithString:midrollUrlStr] offset:20]];
@@ -38,7 +38,7 @@
     
     NSString *videoUrl = @"https://devimages.apple.com.edgekey.net/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8";
     //video subtitle
-    NSString *srtUrl = @"http://atvplayer.zensis.com/demo/demo.srt";
+    NSString *srtUrl = @"https://atvplayer.zensis.com/demo/demo.srt";
     ATVSubtitleConfig *subtitleConf = [ATVSubtitleConfig initWithSubtitles:@[[ATVSubtitle subtitleWithUrl:[NSURL URLWithString:srtUrl] label:@"English"]]];
     self.player.subtitle = subtitleConf;
     //overlay view for channel icon
@@ -49,7 +49,7 @@
     ATVMediaItem *item = [ATVMediaItem itemWithUrl:[NSURL URLWithString:videoUrl]];
     item.videoTitle = @"ATVPlayer Demo";
     item.videoThumbnail = [UIImage imageNamed:@"logo"];
-    item.videoDescription = @"Video Advertising for tvOS\nhttp://atvplayer.zensis.com";
+    item.videoDescription = @"Video Advertising for tvOS\nhttps://atvplayer.zensis.com";
     //present the player
     [self.player presentWithController:self];
     [self.player playWithMediaItem:item startPosition:0];

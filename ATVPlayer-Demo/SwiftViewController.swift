@@ -21,9 +21,9 @@ import ATVPlayer
         
         adContainer.adLoadingText = "Ad loading..";
         adContainer.adCountdownText = "Countdown: %d";
-        let prerollUrlStr : String = "http://atvplayer.zensis.com/demo/vast/vast.xml";
-        let midrollUrlStr : String = "http://atvplayer.zensis.com/demo/vast/vast.xml";
-        let postrollUrlStr = "http://atvplayer.zensis.com/demo/vast/vast.xml";
+        let prerollUrlStr : String = "https://atvplayer.zensis.com/demo/vast/vast.xml";
+        let midrollUrlStr : String = "https://atvplayer.zensis.com/demo/vast/vast.xml";
+        let postrollUrlStr = "https://atvplayer.zensis.com/demo/vast/vast.xml";
         
         adContainer.addAdBreak(ATVAd.init(preRollWithVastUrl: URL.init(string: prerollUrlStr)))
         adContainer.addAdBreak(ATVAd.init(midRollWithVastUrl: URL.init(string: midrollUrlStr), offset: 20))
@@ -32,7 +32,7 @@ import ATVPlayer
         
         let videoUrl : String = "https://devimages.apple.com.edgekey.net/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8";
         //video subtitle
-        let srtUrl : String = "http://atvplayer.zensis.com/demo/demo.srt";
+        let srtUrl : String = "https://atvplayer.zensis.com/demo/demo.srt";
         let atvSubtitle : ATVSubtitle = ATVSubtitle.init(url: URL.init(string: srtUrl), label: "English")
         let subtitleConf : ATVSubtitleConfig = ATVSubtitleConfig.initWith([atvSubtitle])
         self.player.subtitle = subtitleConf;
@@ -45,7 +45,7 @@ import ATVPlayer
         let item : ATVMediaItem = ATVMediaItem.init(url: URL.init(string: videoUrl))
         item.videoTitle = "ATVPlayer Demo";
         item.videoThumbnail = UIImage.init(named: "logo");
-        item.videoDescription = "Video Advertising for tvOS\nhttp://atvplayer.zensis.com";
+        item.videoDescription = "Video Advertising for tvOS\nhttps://atvplayer.zensis.com";
         //present the player
         player.present(with: self)
         player.play(with: item, startPosition: 0)
