@@ -46,7 +46,7 @@ pod 'ATVPlayer'
 Website: https://atvplayer.zensis.com
 Email: service@zensis.com
 
-Copyright :copyright: 2016 Zensis Ltd.
+Copyright :copyright: 2017 Zensis Ltd.
 
 [API Reference]: http://atvplayer.zensis.com/doc/index.html
 [CocoaPods]: https://cocoapods.org/
