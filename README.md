@@ -42,8 +42,13 @@ pod 'ATVPlayer'
 ## Documentation
 * [API Reference] 
 
+## Release Notes
+##### Version 1.0.1 (Nov 14, 2017)
+Bug Fixes
+* Fixed an issue where completeion event is fired when Ad is error.
+
 ## Contact Us
-Website: https://atvplayer.zensis.com
+Website: https://atvplayer.zensis.com  
 Email: service@zensis.com
 
 Copyright :copyright: 2017 Zensis Ltd.
