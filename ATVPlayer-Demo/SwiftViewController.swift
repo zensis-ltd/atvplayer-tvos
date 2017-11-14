@@ -30,7 +30,7 @@ import ATVPlayer
         adContainer.addAdBreak(ATVAd.init(postRollWithVastUrl: URL.init(string: postrollUrlStr)))
         player.adSchedule = adContainer
         
-        let videoUrl : String = "https://devimages.apple.com.edgekey.net/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8";
+        let videoUrl : String = "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8";
         //video subtitle
         let srtUrl : String = "https://atvplayer.zensis.com/demo/demo.srt";
         let atvSubtitle : ATVSubtitle = ATVSubtitle.init(url: URL.init(string: srtUrl), label: "English")

@@ -36,7 +36,7 @@
     [adContainer addAdBreak:[[ATVAd alloc] initPostRollWithVastUrl:[NSURL URLWithString:postrollUrlStr]]];
     self.player.adSchedule = adContainer;
     
-    NSString *videoUrl = @"https://devimages.apple.com.edgekey.net/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8";
+    NSString *videoUrl = @"https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8";
     //video subtitle
     NSString *srtUrl = @"https://atvplayer.zensis.com/demo/demo.srt";
     ATVSubtitleConfig *subtitleConf = [ATVSubtitleConfig initWithSubtitles:@[[ATVSubtitle subtitleWithUrl:[NSURL URLWithString:srtUrl] label:@"English"]]];
