@@ -4,7 +4,7 @@
 ### The tvOS SDK for VAST video ads and SRT subtitles. Monetize your apps on Apple TV.
 ***
 ## Feature:
-- Support Objective-C and Swift 3.0
+- Support Objective-C and Swift 4
 - SRT Subtitle
 - multiple VAST2 video ads. (pre-roll, mid-roll and post-roll)
 - Custom overlay channel icon
@@ -81,6 +81,11 @@ Paste the script inside the body of "Run Script"
 * [API Reference] 
 
 ## Release Notes
+
+##### Version 1.0.3 (Jun 14, 2018)
+Bug Fixes
+* Fixed crash issue when create / deallocate player
+
 ##### Version 1.0.2 (Nov 17, 2017)
 Bug Fixes
 * Fixed issue where when submitting to App Store, iTunes would complain about bitcode
