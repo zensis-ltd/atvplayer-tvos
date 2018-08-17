@@ -82,6 +82,12 @@ Paste the script inside the body of "Run Script"
 
 ## Release Notes
 
+##### Version 1.0.5 (Aug 17, 2018)
+Fixed potential memory issue.
+
+##### Version 1.0.4 (Jun 22, 2018)
+Bug Fixes
+
 ##### Version 1.0.3 (Jun 14, 2018)
 Bug Fixes
 * Fixed crash issue when create / deallocate player
