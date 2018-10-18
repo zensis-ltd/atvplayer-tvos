@@ -26,9 +26,12 @@
     ATVAdSchedule *adContainer = [[ATVAdSchedule alloc] init];
     adContainer.adLoadingText = @"Ad loading..";
     adContainer.adCountdownText = @"Countdown: %d";
+    //count down text for Ad pod, available for v2.0+
+    adContainer.adpodCountdownText = @"Countdown: %1$d %2$d/%3$d";
     
     NSString *prerollUrlStr = @"https://atvplayer.zensis.com/demo/vast/vast.xml";
-    NSString *midrollUrlStr = @"https://atvplayer.zensis.com/demo/vast/vast.xml";
+    //Ad pod example, available for v2.0+
+    NSString *midrollUrlStr = @"https://atvplayer.zensis.com/demo/vast/adpod.xml";
     NSString *postrollUrlStr = @"https://atvplayer.zensis.com/demo/vast/vast.xml";
     
     [adContainer addAdBreak:[[ATVAd alloc] initPreRollWithVastUrl:[NSURL URLWithString:prerollUrlStr]]];

@@ -21,8 +21,11 @@ import ATVPlayer
         
         adContainer.adLoadingText = "Ad loading..";
         adContainer.adCountdownText = "Countdown: %d";
+        //count down text for Ad pod, available for v2.0+
+        adContainer.adpodCountdownText = "Countdown: %1$d %2$d/%3$d";
         let prerollUrlStr : String = "https://atvplayer.zensis.com/demo/vast/vast.xml";
-        let midrollUrlStr : String = "https://atvplayer.zensis.com/demo/vast/vast.xml";
+        //Ad pod example, available for v2.0+
+        let midrollUrlStr : String = "https://atvplayer.zensis.com/demo/vast/adpod.xml";
         let postrollUrlStr = "https://atvplayer.zensis.com/demo/vast/vast.xml";
         
         adContainer.addAdBreak(ATVAd.init(preRollWithVastUrl: URL.init(string: prerollUrlStr)))
