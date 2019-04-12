@@ -98,6 +98,10 @@ https://github.com/zensis-ltd/atvplayer-tvos
 
 ## Release Notes
 
+##### Version 2.0.2 (Apr 12, 2019)
+Support XCode 10.2
+Re-build the library by using Swift 4.2
+
 ##### Version 2.0.1 (Oct 16, 2018)
 Support XCode 10.  
 Support VAST3 Ad Pod (Linear Ad)   
