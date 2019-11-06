@@ -30,15 +30,6 @@ pod 'ATVPlayer'
    * Project -> General -> Add framework in to Embedded Binaries  
 ![alt text][setup]
 
-#### XCode 9 support
-v2.0.1 support XCode 10 only. If you are using XCode 9, please install v2.0.0. All functions and features are same.
-1. Cocoapod 
-```
-pod 'ATVPlayer', '2.0.0'
-```
-2. Manually [Download v2.0.0 framework]
-
-
 #### Strip unwanted architectures for App submission
 Please add below script in "Run Script" to strip unwanted architechture. Otherwise the binary will be rejected by App store.
 This step is required for both Cocoapods and manual installation. 
@@ -97,6 +88,9 @@ https://github.com/zensis-ltd/atvplayer-tvos
 * [API Reference] 
 
 ## Release Notes
+
+##### Version 2.0.4 (Nov 6, 2019)
+Added Build Libraries for Distribution option
 
 ##### Version 2.0.3 (Sep 23, 2019)
 Support XCode 11
