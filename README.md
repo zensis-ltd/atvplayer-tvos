@@ -31,44 +31,7 @@ pod 'ATVPlayer'
 ![alt text][setup]
 
 #### Strip unwanted architectures for App submission
-Please add below script in "Run Script" to strip unwanted architechture. Otherwise the binary will be rejected by App store.
-This step is required for both Cocoapods and manual installation. 
-```sh
-APP_PATH="${TARGET_BUILD_DIR}/${WRAPPER_NAME}"
-
-find "$APP_PATH" -name 'ATVPlayer.framework' -type d | while read -r FRAMEWORK
-do
-FRAMEWORK_EXECUTABLE_PATH="$FRAMEWORK/ATVPlayer"
-
-EXTRACTED_ARCHS=()
-
-for ARCH in $ARCHS
-do
-lipo -extract "$ARCH" "$FRAMEWORK_EXECUTABLE_PATH" -o "$FRAMEWORK_EXECUTABLE_PATH-$ARCH"
-EXTRACTED_ARCHS+=("$FRAMEWORK_EXECUTABLE_PATH-$ARCH")
-done
-
-lipo -o "$FRAMEWORK_EXECUTABLE_PATH-merged" -create "${EXTRACTED_ARCHS[@]}"
-rm "${EXTRACTED_ARCHS[@]}"
-
-rm "$FRAMEWORK_EXECUTABLE_PATH"
-mv "$FRAMEWORK_EXECUTABLE_PATH-merged" "$FRAMEWORK_EXECUTABLE_PATH"
-
-done
-```
-
-##### Step 1
-Select you application target, then select "Build Phases"
-
-##### Step 2
-In Xcode menu, click "+", then select "New Run Script Phase"  
-![alt text][new_run_script]
-
-##### Step 3
-Paste the script inside the body of "Run Script"  
-![alt text][run_script]
-
-
+From v2.0.5, we built with xcframework. This step is no longer needed.
 
 ## Import License
 1. [Contact us] for the license key
@@ -88,6 +51,10 @@ https://github.com/zensis-ltd/atvplayer-tvos
 * [API Reference] 
 
 ## Release Notes
+
+##### Version 2.0.5 (Oct 12, 2020)
+Update to xcframework   
+Support Xcode 12
 
 ##### Version 2.0.4 (Nov 6, 2019)
 Added Build Libraries for Distribution option
